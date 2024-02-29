@@ -10,7 +10,5 @@ urlpatterns = [
     path('', home, name= 'home'),
     path('about/', about, name= 'about'),
     path('contacts/', contacts, name= 'contact'),
-    path('product/', product, name='product'),
-    # Other URL patterns...
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
